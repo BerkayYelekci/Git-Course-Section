@@ -577,7 +577,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1511587857
+=======
+--- !u!1 &1067949702
+>>>>>>> parent of 7ba70c1... Added an arm
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -585,23 +589,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1511587861}
   - component: {fileID: 1511587860}
   - component: {fileID: 1511587859}
   - component: {fileID: 1511587858}
   m_Layer: 1
   m_Name: Cylinder (1)
+=======
+  - component: {fileID: 1067949706}
+  - component: {fileID: 1067949705}
+  - component: {fileID: 1067949704}
+  - component: {fileID: 1067949703}
+  m_Layer: 1
+  m_Name: Sphere (1)
+>>>>>>> parent of 7ba70c1... Added an arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!136 &1511587858
 CapsuleCollider:
+=======
+--- !u!135 &1067949703
+SphereCollider:
+>>>>>>> parent of 7ba70c1... Added an arm
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1511587857}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -611,12 +630,26 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1511587859
+=======
+  m_GameObject: {fileID: 1067949702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1067949704
+>>>>>>> parent of 7ba70c1... Added an arm
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1511587857}
+=======
+  m_GameObject: {fileID: 1067949702}
+>>>>>>> parent of 7ba70c1... Added an arm
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -649,20 +682,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &1511587860
+=======
+--- !u!33 &1067949705
+>>>>>>> parent of 7ba70c1... Added an arm
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1511587857}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1511587861
+=======
+  m_GameObject: {fileID: 1067949702}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1067949706
+>>>>>>> parent of 7ba70c1... Added an arm
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1511587857}
   m_LocalRotation: {x: 0.7052458, y: -0, z: -0, w: 0.70896304}
   m_LocalPosition: {x: -4.57, y: -0.185, z: -4.114}
@@ -671,3 +715,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 89.701004, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1067949702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7, y: 1.788, z: 0.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 7ba70c1... Added an arm
